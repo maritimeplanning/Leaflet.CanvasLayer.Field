@@ -32,7 +32,8 @@
     },
     "scripts": {
         "start": "webpack --watch",
-        "build": "webpack -p",
+        "build_orig": "webpack -p",
+        "build": "webpack",
         "web": "webpack-dev-server",
         "test": "karma start"
     },
